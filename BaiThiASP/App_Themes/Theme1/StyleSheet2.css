@@ -1,0 +1,26 @@
+﻿body {
+    background-color:   white;
+    text-align:center;
+    background-image: url(ffu4sLX.jpg);
+}
+
+h1 {
+    background-image: url(unnamed.jpg);
+}
+
+nav {
+    background-color: deepskyblue;
+    text-align: left;
+}
+
+nav a {
+    color: white;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+

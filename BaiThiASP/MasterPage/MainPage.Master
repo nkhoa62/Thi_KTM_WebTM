@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainPage.master.cs" Inherits="BaiThiASP.MasterPage.MainPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../App_Themes/Theme1/StyleSheet2.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <ul><h1 class="auto-style1"><a href="TrangChu.aspx" ></a></h1>
+                <nav aria-orientation="horizontal">
+                    <li><a id="A4" runat="server" href="TrangChu.aspx">TRANG CHỦ</a></li>
+                    <li><a id="A1" runat="server" href="TinTuc.aspx" class="auto-style1">TIN TỨC</a></li>
+                    <li><a id="A2" runat="server" href="TacGia.aspx">TÁC GIẢ</a></li>
+                    <li><a id="A3" runat="server" href="ChuDe.aspx">CHỦ DỀ</a></li>
+                 </nav>
+            </ul>
+            <section id="PageWrapper">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+            <aside id="Sidebar"></aside>
+            <footer>
+                <li>Gmail: nkhoa62@gmail.com</li>
+                <li>Liên hệ: 0935962027</li>
+                <li>Trang <a href="https://www.facebook.com/dsgfdhgfhfj">Facebook</a> cá nhân</li>
+            </footer>
+          </div>
+    </form>
+</body>
+</html>
